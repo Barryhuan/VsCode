@@ -1,0 +1,127 @@
+{
+    // VSCode的系统配置
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
+    // 自动关闭标签的配置
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "auto-close-tag.activationOnLanguage": [
+        "*"
+    ],
+    "auto-close-tag.disableOnLanguage": [
+        "php",
+        "python"
+    ],
+    "auto-close-tag.excludedTags": [
+        "area",
+        "base",
+        "br",
+        "col",
+        "command",
+        "embed",
+        "hr",
+        "img",
+        "input",
+        "keygen",
+        "link",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+    ],
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    // js方框的提示
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.colorMode": "Consecutive",
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 3px",
+        "borderColor : {color}; opacity: 0.2"
+    ],
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "Fuchsia",
+            "Cyan",
+            "Gold"
+        ],
+        "Red"
+    ],
+    // 运行代码的配置
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.enableAppInsights": false,
+    // HTML标签高亮
+    "highlight-matching-tag.highlightFromName": true,
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "name": {
+                "highlight": "Navy",
+                "underline": "Gold"
+            }
+        }
+    },
+
+    "winopacity.opacity": 255,
+    "cSpell.language": "en",
+    "backgroundCover.randomImageFolder": "g:\\电脑壁纸",
+    "backgroundCover.imagePath": "g:\\电脑壁纸\\奥罗拉湖的夜晚 瑞士Bannalp湖 冰岛 极光 星空 4K壁纸_彼岸图网.jpg",
+    "backgroundCover.autoStatus": false,
+    "backgroundCover.opacity": 1,
+    
+    // 是否开启字体效果
+    "powermode.enabled": true,
+    // 样式
+    "powermode.presets": "flames",
+    // 间隔时间
+    "powermode.comboTimeout": 5,
+    // 字体抖动
+    "powermode.enableShake": false,
+    // 背景
+    "powermode.backgroundMode": "mask",
+    "cSpell.enableFiletypes": [
+        "!css"
+    ],
+
+
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+
+    // 图片预览
+    "gutterpreview.imagePreviewMaxHeight": 800,
+    "gutterpreview.enableReferenceLookup": true,
+
+    // code实时编译
+    
+    "quokka.showOutputOnStart": true,
+    "quokka.colors": {
+        "covered": "#62b455",
+        "errorPath": "#ffa0a0",
+        "errorSource": "#fe536a",
+        "notCovered": "#cccccc",
+        "partiallyCovered": "#d2a032"
+    },
+    "quokka.compactMessageOutput": true,
+    "quokka.suppressExpirationNotifications": true,
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjoyNDAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4MjcsXCJoZWlnaHRcIjoxMTY5fSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+    "workbench.iconTheme": "material-icon-theme",
+    "browser-preview.startUrl": "http://www.baidu.com",
+    "browser-preview.chromeExecutable": "D:\\软件下载\\插件\\Google\\chrome.exe",
+    "px-to-rem.px-per-rem": 192,
+    "cssrem.fixedDigits": 4,
+    "cssrem.rootFontSize": 192,
+    "hediet.vscode-drawio.codeLinkActivated": true,
+    "window.zoomLevel": 1
+}
