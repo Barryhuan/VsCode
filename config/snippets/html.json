@@ -19,7 +19,7 @@
 			"<html>",
 			"<head>",
 			"\t<meta charset=\"UTF-8\" />",
-			"\t<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=0\">",
+			"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
 			"\t<title>${1:Document}</title>",
 			"</head>",
 			"<body>",
@@ -51,8 +51,7 @@
 	"link": {
 		"prefix": "lk",
 		"body": [
-			"<link rel=\"stylesheet\" href=\"$1\" />",
-			"$2"
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"$1\" />"
 		]
 	},
 
@@ -87,4 +86,9 @@
 		"body": "<p class=\"$1\"></p>",
 		"description": "p-class"
 	},
+	"console.log()": {
+		"prefix": "logv",
+		"body": "console.log($1)",
+		"description": "prin log"
+	}
 }

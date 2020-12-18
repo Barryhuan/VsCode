@@ -31,3 +31,6 @@
 31. eighthundreds.vscode-drawio 做图插件
 32. xr0master.webstorm-intellij-darcula-theme webstorm主题插件
 33. niudai.vscode-zhihu 知乎插件
+34. hoovercj.vscode-power-mode 打字烟花效果
+35. mhutchie.git-graph Git历史工具
+36. gera2ld.markmap-vscode markdown流程图制作插件
